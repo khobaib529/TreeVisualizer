@@ -24,7 +24,7 @@ To test the TreeVisualizer utility, use the provided test programs. It verifies 
 Before building the test executable, you need to create the necessary directory structure. Run the following commands:
 
 ```bash
-mkdir build && cd build && mkdir tests
+mkdir build && cd build && mkdir tests && cd ../
 ```
 ```shell
 g++ -o build/tests/test_binary_tree_visualizer tests/test_binary_tree_visualizer.cpp -lgvc -lcgraph -I./include
