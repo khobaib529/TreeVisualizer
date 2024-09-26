@@ -23,6 +23,7 @@
 #ifndef BINARY_TREE_VISUALIZER_H_
 #define BINARY_TREE_VISUALIZER_H_
 
+#include<string>
 #include <graphviz/gvc.h>
 
 namespace TreeVisualizer {
